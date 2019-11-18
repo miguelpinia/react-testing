@@ -12,8 +12,16 @@ class Counter extends Component {
     fontWeight: 'bold',
   };
 
+  constructor() {
+    super();
+    this.handleIncrement = this.handleIncrement.bind(this);
+  }
+
+
   handleIncrement() {
     console.log('Increment clicked', this);
+    // obj.method();
+    // function();
   };
 
   render() {
