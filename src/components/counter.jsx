@@ -19,9 +19,7 @@ class Counter extends Component {
 
 
   handleIncrement = () => {
-    console.log('Increment clicked', this);
-    // obj.method();
-    // function();
+    this.setState({count: this.state.count + 1});
   };
 
   render() {
