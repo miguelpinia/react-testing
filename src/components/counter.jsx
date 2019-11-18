@@ -43,7 +43,6 @@ class Counter extends Component {
 
   formatCount() {
     const {count} = this.state;
-    const x = <h1>Zero</h1>;
     return count === 0 ? 'Zero' : count;
   }
 }
